@@ -12,7 +12,7 @@ let valorproducto = 32000;
 let  impuesto= 0.10;
 let domici =3000;
 
-var costototal= valorproducto + impuesto + domici;
+var costototal= valorproducto * impuesto + domici;
 console.log("sub-total:" + (valorproducto + impuesto));
-console.log("domicilio:"+ domici);
+console.log("domicilio:" + domici);
 console.log("El costo total es de: $" + costototal)
